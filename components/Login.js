@@ -39,7 +39,9 @@ export default class Login extends Component {
                     <TouchableOpacity style={styles.login}>
                         <Text style={styles.textLoginRegister}>Đăng nhập</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={styles.register}>
+                    <TouchableOpacity style={styles.register}
+                        onPress={() => this.props.navigation.navigate('Register')}
+                    >
                         <Text style={styles.textLoginRegister}>Đăng ký</Text>
                     </TouchableOpacity>
                 </View>
