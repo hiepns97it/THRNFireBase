@@ -1,4 +1,4 @@
-import * as firebase from 'firebase';
+import firebase from 'firebase';
 
 var firebaseConfig = {
     apiKey: "AIzaSyAi-oM7e3W7skMtoCY1nmQcErMAkL12m2g",
@@ -9,5 +9,5 @@ var firebaseConfig = {
     appId: "1:613632094367:web:c283eef33ef64c48b7b2aa",
     measurementId: "G-LJ91T517YM"
 };
-export const firebaseApp = firebase.initializeApp(firebaseConfig);
-export const firebaseAnlyticAPp = firebase.analytics();
+export  const firebaseApp = firebase.initializeApp(firebaseConfig)
+//export const firebaseAnlyticAPp = firebase.analytics();
